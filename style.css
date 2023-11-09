@@ -1,0 +1,65 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+h1 {
+  background-color: #edb62c;
+  text-align: center;
+  padding-top: 0;
+}
+
+#przycisk {
+  background-color: red;
+  width: 50px;
+
+}
+#przycisk:hover{
+  background-color: darkred;
+  width: 55px;
+}
+
+.color-green {
+  color: green;
+}
+
+#my-padding-main {
+  padding: 50px;
+
+}
+
+
+img.zdjecie1{
+    display: flex;
+    float:right;
+    border-radius: 50%;
+    border: 5px solid #755400;
+    margin-right: 5%;
+    margin-left: auto;
+    width: 50%;
+    max-width: 500px;
+    height: auto;
+}
+
+figure {
+  border: thin white solid;
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+  max-width: 400px;
+  margin: auto;
+}
+
+.menu {
+  color: yellow;
+  background-color:darkgoldenrod;
+  padding: 10px;
+}
+
+body {
+  margin: 0;
+  background-color: darkgoldenrod;
+}
+a {
+  color: black;
+}
